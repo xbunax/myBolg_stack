@@ -9,12 +9,12 @@ since = 2020
 customText = ""
 
 [dateFormat]
-published = "Jan 25, 2024"
-lastUpdated = "Jan 25, 2024 15:04 MST"
+published = ""
+lastUpdated = ""
 
 [sidebar]
 emoji = "🍥"
-subtitle = "Tongji University"
+subtitle = "𝚃𝚘𝚗𝚐𝚓𝚒 𝚄𝚗𝚒𝚟𝚎𝚛𝚜𝚒𝚝𝚢"
 
 [sidebar.avatar]
 enabled = true
@@ -76,7 +76,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "disqus"
+provider = "waline"
 
 [comments.disqusjs]
 shortname = ""
@@ -104,16 +104,16 @@ clientSecret = ""
 autoCreateIssue = false
 
 [comments.waline]
-serverURL = ""
+serverURL = "comments.zhumocn.com"
 lang = ""
 visitor = ""
-avatar = ""
+avatar = "img/cat.png"
 emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
 requiredMeta = ["name", "email", "url"]
 placeholder = ""
 
 [comments.waline.locale]
-admin = "Admin"
+admin = "July"
 
 [comments.twikoo]
 envId = ""
